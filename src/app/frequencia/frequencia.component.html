@@ -1,0 +1,64 @@
+<app-layout>
+    <div class="row no-gutters">
+        <div class="col">
+            <input class="form-control border-secondary border-right-0 rounded-0" type="search" placeholder="Digite sua pesquisa aqui..." id="example-search-input4">
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-outline-secondary border-left-0 rounded-0 rounded-right" type="button">
+                <i class="fa fa-close"></i>
+            </button>
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-outline-secondary border-left-0 rounded-0 rounded-right" type="button">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+  
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Segurança do Trabalho
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+              Frequência
+          </div>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Bom atendimento
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            Frequência
+          </div>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Cardiologia
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            Frequência
+          </div>
+        </div>
+      </div>
+    </div>
+  </app-layout>

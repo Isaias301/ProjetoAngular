@@ -1,0 +1,9 @@
+.color{
+    /* background-color: #a60900; */
+    background: radial-gradient(ellipse at center,  #a60900 1%,#111111 100%);
+}
+
+.dropdown-item:hover{
+    background-color: #a60900;
+    color: #ffffff;
+}

@@ -1,0 +1,34 @@
+.no-gutters{
+    margin-bottom: 25px;
+}
+
+.style-card{
+    padding: 15px;
+}
+
+.style-card:hover{
+    padding: 0;
+}
+
+.card{
+    background-color: black;
+}
+
+.card-title{
+    color: #ffffff;
+}
+
+.card-text{
+    color: #ffffff;
+}
+
+.color{
+    background-color: #a60900;
+    color: #ffffff;
+    border: #ffffff solid 1px;
+}
+
+.color:hover{
+    background-color: black;
+    border: #a60900 solid 1px;
+}
